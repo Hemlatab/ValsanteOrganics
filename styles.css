@@ -5,7 +5,13 @@ body{
 
 /* Logo */
 
+.logo{
+    list-style: none;
+}
 
+.logo ul li{
+   list-style: none;
+}
 /* navbar */
 
 nav{
@@ -15,7 +21,7 @@ nav{
 }
 
 .navbar{
-    display: flex;
+    display: inline-block;
     
 }
 
@@ -25,6 +31,9 @@ nav{
 
 .navbar li a{
    text-decoration: none;
+   background-color: black;
+   padding: 10px;
+   margin: 5px;
 }
 
 /* Hero Image */
@@ -46,10 +55,11 @@ nav{
     list-style: none;
     display: flex;
     justify-content: center;
+    display: inline-block;
 }
 
-.social-media-links li a{
-    display: inline-block;
+.social-media-links li a{ 
     color:#ffffff;
     font-size: 20px;
+   
 }
