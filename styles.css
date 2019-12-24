@@ -40,6 +40,23 @@ nav{
 
 /* Products */
 
+.wrapper{
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 10px;
+    background-color: blueviolet;
+    color: #444;
+}
+
+.product-1{
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 18px;
+    margin: 40px;
+}
+
 /* Footer */
 
 .footer{
