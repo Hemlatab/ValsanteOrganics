@@ -6,20 +6,18 @@ body{
 /* Logo */
 
 .logo{
-    list-style: none;
+    background-color: #444;
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
 }
-
-.logo li a{
-    list-style: none;
- }
 
 /* navbar */
 
 .navbar{
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
   list-style: none;
+  float: right;
 }
 
 .navbar li a{
@@ -32,6 +30,12 @@ body{
 
 /* Hero Image */
 
+.hero-image{
+    background-image: url("images/make-up-brush.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
 /* Products */
 
 .wrapper{
@@ -107,9 +111,18 @@ textarea{
 
 /* Media Queries */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
     }
+
+    .navbar{
+        flex-wrap: wrap;
+    }
+
+    .navbar li{
+        flex-basis: 50%;
+    }
+
   }
