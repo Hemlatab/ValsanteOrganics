@@ -104,3 +104,12 @@ textarea{
     font-size: 20px;
    
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
