@@ -21,6 +21,7 @@ body{
   justify-content: space-between;
   background-color: #555;
   list-style: none;
+  margin: 0;
 }
 
 .navbar a{
