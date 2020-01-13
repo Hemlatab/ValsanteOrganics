@@ -111,6 +111,45 @@ h1{
     margin: 40px;
 }
 
+/** Login Page **/
+.login-form{
+    text-align: center;
+}
+
+input[type=password]{
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.login-btn{
+    background-color: #4CAF50;
+    padding: 12px 20px;
+    border:none;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/** Signup page**/
+.signup-btn{
+    background-color: #4CAF50;
+    padding: 12px 20px;
+    border:none;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
 /* Contact Form */
 
 .form{
@@ -120,7 +159,7 @@ h1{
 .contact-form{
     width: 50%;
     text-align: left;
-    
+    display: inline-block;
 }
 
 input[type=text], textarea{
