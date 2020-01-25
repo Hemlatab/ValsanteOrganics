@@ -9,7 +9,7 @@ body{
 .logo{
     background-color: #444;
     padding: 12px;
-    margin-left: 0;
+    margin-right: 0;
     text-decoration: none;
     float: left;
 }
@@ -25,6 +25,7 @@ body{
 }
 
 .navbar a{
+    flex:1;
     float: right;
     margin: 0 auto;
     display: block;
@@ -47,6 +48,18 @@ body{
 
 .active{
     background-color: #4CAF50;
+}
+
+input[type=search]{
+    width: 60%;
+    font-size: 12px;
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    resize: vertical;
 }
 
 /* Hero Image */
@@ -138,6 +151,7 @@ input[type=password]{
     display: block;
     cursor: pointer;
     border-radius: 4px;
+    font-size: 18px;
 }
 
 /** Signup page**/
@@ -150,6 +164,7 @@ input[type=password]{
     display: block;
     cursor: pointer;
     border-radius: 4px;
+    font-size: 18px;
 }
 
 /* Contact Form */
@@ -197,6 +212,7 @@ input[type=email], textarea{
     display: block;
     cursor: pointer;
     border-radius: 4px;
+    font-size: 18px;
 }
 
 .contact-btn:hover{
