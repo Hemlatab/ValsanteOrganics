@@ -105,6 +105,7 @@ h1{
 .products a{
     color:blue;
     text-align: center;
+    display: flex;
 }
 
 /* Products Page */
@@ -115,6 +116,8 @@ h1{
     margin:auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    padding: 10px;
 }
 
 .price{
